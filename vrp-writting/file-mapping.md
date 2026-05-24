@@ -20,6 +20,14 @@
 | 9 | `A unified exact approach for a broad class of vehicle routing problems with simultaneous pickup and delivery.pdf` | `PraxedesEtAl2024_BCP-VRPSPD-Unified.pdf` | Tạp chí Q1 (COR) | Branch-Cut-Price algorithm thống nhất cho 10 biến thể VRPSPD | Computers & Operations Research 2024 |
 | 10 | `Benefit analysis of shared depot resources for multi-depot vehicle routing problem with fuel consumption.pdf` | `LiEtAl2018_MDVRP-SharedDepot-Fuel.pdf` | Tạp chí Q1 (TRD) | MDVRP với shared depot, phân tích lợi ích tiết kiệm nhiên liệu | Transportation Research Part D 2018 |
 | 11 | `Bi Objective Multi Depot Location Routing Problem with Time Window for EVs.pdf` | `Alimoradi2025_BiObj-MDLRPTW-EV.pdf` | Luận văn Thạc sĩ (Ontario Tech) | MDLRPTW cho xe điện, bi-objective (chi phí + công bằng workload), hybrid GA+ACO | Master Thesis 2025, 109 trang |
+| 13 | `Collaboration and transportation resource sharing in multiple centers vehicle routing optimization with delivery and pickup.pdf` | `WangEtAl2018_CMCVRPSDP-HNSGA2-CGA.pdf` | Tạp chí Q1 (Knowledge-Based Systems, Elsevier) | CMCVRPSDP: hợp tác DC+PC chia sẻ xe/khách hàng, HNSGA-II (k-means + NSGA-II), phân bổ lợi nhuận CGA vs Shapley/MCRS/GQP | 2018, 15 trang, case study Chongqing |
+| 14 | `Collaborative multi-depot pick up and delivery vehicle routing problem with split loads and time windows.pdf` | `WangEtAl2021_CMDPDLN-SplitLoads-HGA-TS.pdf` | Tạp chí Q1 (Knowledge-Based Systems 231, Elsevier) | MDPDVRPST: split loads + time windows, 3D customer clustering (lon/lat/TW), HGA-TS, min-max split strategy | 2021, 24 trang, case study Chongqing 5 kho 150 KH |
+| 18 | `ELECTRIC VEHICLE ROUTING PROBLEM A REVIEW OF RECENT APPROACHES AND ALGORITHMS.pdf` | `Xu2024_EVRP-Review.pdf` | Tạp chí (Studia UBB Informatica Vol.LXIX No.2) | Review EVRP 2022–2024: 42 papers, phân loại theo energy model/charging strategy/constraints, so sánh 8 nhóm thuật toán | 2024, 16 trang, 1 tác giả |
+| 19 | `Failure-specific cooperative recourse strategy for simultaneous pickup and delivery problem with stochastic demands.pdf` | `ZhuSheu2018_FSC-SPDPSD-ALNS.pdf` | Tạp chí Q1 (EJOR, Elsevier 2018) | SPDPSD: C-failure vs S-failure, FSC strategy (lead+partner), a priori routing, extend-and-skip, ALNS, 800 instances × 5 demand patterns | 2018, 17 trang, 2 tác giả |
+| 20 | `Greedy random adaptive memory programming search for the capacitated clustering problem.pdf` | `AhmadiOsman2005_GRAMPS-CCP.pdf` | Tạp chí Q1 (EJOR 162, Elsevier) | CCP (p-median): GRAMPS = GRASP + AMP, density search + intensity measure, restricted 1-interchange local search, ablation V1 vs V2 | 2005, 15 trang, 2 tác giả |
+| 21 | `Heterogeneous multi-depot collaborative vehicle routing problem.pdf` | `ZhangEtAl2022_HMCVRP-Benders-BBC.pdf` | Tạp chí Q1 (TRB 160, Elsevier) | HMCVRP: kho dị loại hợp tác qua transshipment tại TP, Benders-based B&C (EBBC), combinatorial Benders' cuts, 4 enhancement strategies | 2022, 20 trang, 5 tác giả |
+| 23 | `Optimization of Multi‑depot Semi‑open Cold‑Chain .pdf` | `HouEtAl2025_ColdChain-MDSO-FALNS.pdf` | Tạp chí (Int J Comput Intell Syst 18:289, Springer) | Multi-depot semi-open cold-chain VRP + time-dependent road: FA-LNS, hàm suy giảm D(t)=D₀e^(-δt), CMEM fuel model, departure time optimization | 2025, 22 trang, 4 tác giả |
+| 25 | `The multi-depot heterogeneous VRP with backhauls formulation and a hybrid VNS with GRAMPS meta-heuristic approach.pdf` | `KocaturkEtAl2021_MDHFVRPB-VNS-GRAMPS.pdf` | Tạp chí Q1 (Annals of Operations Research, Springer) | MDHFVRPB: tổ hợp multi-depot + heterogeneous fleet + backhauls, model tightening, VNS-GRAMPS 2-stage hybrid, EIR-based neighborhood ordering | 2021, 26 trang, 3 tác giả |
 
 ---
 
@@ -28,7 +36,6 @@
 | # | Tên file gốc |
 |---|---|
 | 12 | `Collaboration and Resource Sharing for the Multi-Depot Electric Vehicle Routing Problem with Time Windows and Dynamic Customer Demands.pdf` |
-| 13 | `Collaboration and transportation resource sharing in multiple centers vehicle routing optimization with delivery and pickup.pdf` |
 | 14 | `Collaborative multi-depot pick up and delivery vehicle routing problem with split loads and time windows.pdf` |
 | 15 | `Collaborative multicenter delivery and pickup network design with transportation resource configuration and alliance synergy service.pdf` |
 | 16 | `Collaborative multidepot split delivery network design with three-dimensional loading constraints.pdf` |
@@ -39,7 +46,7 @@
 | 21 | `Heterogeneous multi-depot collaborative vehicle routing problem.pdf` |
 | 22 | `Multi-Depot Collaborative Distribution Routing Optimization Considering.pdf` |
 | 23 | `Optimization of Multi‑depot Semi‑open Cold‑Chain .pdf` |
-| 24 | `Stochastic dynamic vehicle routing in the light of prescriptive analytics- A review.pdf` |
+| 24 | `Stochastic dynamic vehicle routing in the light of prescriptive analytics- A review.pdf` | `SoeffkerEtAl2022_SDVRP-PrescriptiveAnalytics-Review.pdf` | Tạp chí Q1 (EJOR 298, Elsevier) — Invited Review | SDVRP Prescriptive Analytics framework: info model + decision model + 4 nhóm PA method (Rolling/CFA/PFA/MSA/RA/VFA), unified framework + running example | 2022, 20 trang, 3 tác giả |
 | 25 | `The multi-depot heterogeneous VRP with backhauls formulation and a hybrid VNS with GRAMPS meta-heuristic approach.pdf` |
 | 26 | `sach bao cao logistics viet nam 2024.pdf` |
 
